@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.ActivityMan"></activity>
+        <activity android:name=".ui.ActivityAuto"></activity>
     </application>
 
 </manifest>

@@ -1,10 +1,11 @@
 package gdgdevfest.walker.ui;
 
+import gdgdevfest.walker.R;
+import gdgdevfest.walker.ui.fragments.FragmentChoice;
 import android.app.Activity;
+import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Menu;
-
-import gdgdevfest.walker.R;
 
 public class ActivityMain extends Activity {
 
@@ -12,6 +13,16 @@ public class ActivityMain extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		Fragment fragment = getFragmentManager().findFragmentByTag(
+				FragmentChoice.class.getName());
+		if (fragment != null)
+			fragment.onDestroy();
+		fragment = new FragmentChoice();
+		getFragmentManager()
+				.beginTransaction()
+				.replace(R.id.main_frame_lt_content, fragment,
+						FragmentChoice.class.getName()).commit();
 	}
 
 	@Override

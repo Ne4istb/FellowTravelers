@@ -23,7 +23,7 @@ public class OrderGetAPI extends BaseGet {
 	public OrderGetAPI(String id) {
 
 		super((id == null ? NetConstants.METHOD_GET_ORDERS
-				: NetConstants.METHOD_GET_ORDER + id));
+				: NetConstants.METHOD_ORDER + "/" + id));
 
 		if (id == null)
 			isList = true;

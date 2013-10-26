@@ -8,6 +8,8 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -22,8 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.ActivityMan"></activity>
-        <activity android:name=".ui.ActivityAuto"></activity>
+        <activity android:name=".ui.ActivityMan" >
+        </activity>
+        <activity android:name=".ui.ActivityAuto" >
+        </activity>
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@ public class NetConstants {
 	/**
 	 * Methods
 	 */
-	public static final String METHOD_GET_ORDER = URL_BASE + "order/";
+	public static final String METHOD_ORDER = URL_BASE + "order";
 
 	public static final String METHOD_GET_ORDERS = URL_BASE + "orders";
 

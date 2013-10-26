@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00cc04d6-e5fb-4e79-95c4-cec9f2a98ab3" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\aidl\debug\dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\aidl\debug\inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\aidl\debug\outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeAssets\debug\inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeAssets\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeAssets\debug\outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeResources\debug\inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeResources\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\incremental\mergeResources\debug\outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\libs\Walker-debug.ap_" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\manifests\debug\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\layout\activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\menu\activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\values-sw720dp-land\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\values-v11\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\values-v14\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\res\all\debug\values\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\source\buildConfig\debug\gdgdevfest\walker\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\ne4istb\Source\FellowTravelers\Walker\build\source\r\debug\gdgdevfest\walker\R.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="00cc04d6-e5fb-4e79-95c4-cec9f2a98ab3" name="Default" comment="" />
     <ignored path="Walker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,6 +61,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Walker" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -487,6 +467,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Walker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Walker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -507,6 +501,26 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.Walker">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />

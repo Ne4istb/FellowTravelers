@@ -1,9 +1,9 @@
 package gdgdevfest.walker.net;
 
+import gdgdevfest.walker.dao.BaseDAO;
 import gdgdevfest.walker.utils.HelperUtils;
 
 import java.io.IOException;
-import java.text.ParseException;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -13,7 +13,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONException;
 
-public abstract class BaseGet {
+public abstract class BasePost {
 
 	private String mUrl;
 	private String mResponse;
@@ -21,7 +21,7 @@ public abstract class BaseGet {
 
 	private HttpGet httpGet;
 
-	public BaseGet(String url) {
+	public BasePost(String url) {
 
 		mUrl = url;
 	}
@@ -60,7 +60,7 @@ public abstract class BaseGet {
 		try {
 
 			return parseResponse();
-		} catch (Exception e) {
+		} catch (JSONException e) {
 
 			HelperUtils.printException(e);
 			return null;
@@ -74,8 +74,7 @@ public abstract class BaseGet {
 		httpGet.setHeader(key, value);
 	}
 
-	protected abstract Object parseResponse() throws JSONException,
-			ParseException;
+	protected abstract BaseDAO parseResponse() throws JSONException;
 
 	public String getResponse() {
 

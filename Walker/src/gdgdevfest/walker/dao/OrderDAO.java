@@ -1,6 +1,6 @@
 package gdgdevfest.walker.dao;
 
-import java.util.Calendar;
+import java.util.Date;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -9,9 +9,42 @@ public class OrderDAO extends BaseDAO implements Parcelable {
 
 	private int id;
 	private String status = null;
+	private PointDAO from = null;
+	private PointDAO to = null;
 	private double price;
 	private String phone;
-	private Calendar createAt;
+	private Date createAt = null;
+	private Date updateAt = null;
+
+	public PointDAO getFrom() {
+
+		return from;
+	}
+
+	public void setFrom(PointDAO from) {
+
+		this.from = from;
+	}
+
+	public void setTo(PointDAO to) {
+
+		this.to = to;
+	}
+
+	public PointDAO getTo() {
+
+		return to;
+	}
+
+	public Date getUpdateAt() {
+
+		return updateAt;
+	}
+
+	public void setUpdateAt(Date updateAt) {
+
+		this.updateAt = updateAt;
+	}
 
 	public int getId() {
 
@@ -53,12 +86,12 @@ public class OrderDAO extends BaseDAO implements Parcelable {
 		this.phone = phone;
 	}
 
-	public Calendar getCreateAt() {
+	public Date getCreateAt() {
 
 		return createAt;
 	}
 
-	public void setCreateAt(Calendar createAt) {
+	public void setCreateAt(Date createAt) {
 
 		this.createAt = createAt;
 	}
@@ -73,13 +106,28 @@ public class OrderDAO extends BaseDAO implements Parcelable {
 
 	}
 
+	public OrderDAO(int id, String status, PointDAO from, PointDAO to,
+			double price, String phone, Date createAt, Date updateAt) {
+
+		this.id = id;
+		this.status = status;
+		this.from = from;
+		this.to = to;
+		this.price = price;
+		this.phone = phone;
+		this.createAt = createAt;
+		this.updateAt = updateAt;
+	}
+
 	private OrderDAO(Parcel parcel) {
 
 		id = parcel.readInt();
 		status = parcel.readString();
+		from = parcel.readParcelable(null);
+		to = parcel.readParcelable(null);
 		price = parcel.readDouble();
 		phone = parcel.readString();
-		createAt = (Calendar) parcel.readSerializable();
+		createAt = (Date) parcel.readSerializable();
 	}
 
 	@Override
@@ -87,6 +135,8 @@ public class OrderDAO extends BaseDAO implements Parcelable {
 
 		dest.writeInt(id);
 		dest.writeString(status);
+		dest.writeParcelable(from, 0);
+		dest.writeParcelable(to, 0);
 		dest.writeDouble(price);
 		dest.writeString(phone);
 		dest.writeSerializable(createAt);
@@ -110,7 +160,8 @@ public class OrderDAO extends BaseDAO implements Parcelable {
 	@Override
 	public String toString() {
 
-		return "OrderDAO [id=" + id + ", status=" + status + ", price=" + price
-				+ ", phone=" + phone + ", createAt=" + createAt + "]";
+		return "OrderDAO [id=" + id + ", status=" + status + ", from=" + from
+				+ ", to=" + to + ", price=" + price + ", phone=" + phone
+				+ ", createAt=" + createAt + ", updateAt=" + updateAt + "]";
 	}
 }

@@ -1,9 +1,10 @@
 package gdgdevfest.walker.ui;
 
-import gdgdevfest.walker.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+
+import gdgdevfest.walker.R;
 
 public class ActivityMain extends Activity {
 

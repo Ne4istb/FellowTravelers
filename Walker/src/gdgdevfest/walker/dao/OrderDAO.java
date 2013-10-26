@@ -5,7 +5,7 @@ import java.util.Calendar;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class OrderDAO implements Parcelable {
+public class OrderDAO extends BaseDAO implements Parcelable {
 
 	private int id;
 	private String status = null;
@@ -106,4 +106,11 @@ public class OrderDAO implements Parcelable {
 			return new OrderDAO(source);
 		}
 	};
+
+	@Override
+	public String toString() {
+
+		return "OrderDAO [id=" + id + ", status=" + status + ", price=" + price
+				+ ", phone=" + phone + ", createAt=" + createAt + "]";
+	}
 }

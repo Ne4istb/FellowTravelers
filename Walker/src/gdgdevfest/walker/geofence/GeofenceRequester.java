@@ -40,22 +40,14 @@ public class GeofenceRequester
                     ConnectionCallbacks,
                     OnConnectionFailedListener {
 
-    // Storage for a reference to the calling client
     private final Activity mActivity;
 
-    // Stores the PendingIntent used to send geofence transitions back to the app
     private PendingIntent mGeofencePendingIntent;
 
-    // Stores the current list of geofences
     private ArrayList<Geofence> mCurrentGeofences;
 
-    // Stores the current instantiation of the location client
     private LocationClient mLocationClient;
 
-    /*
-     * Flag that indicates whether an add or remove request is underway. Check this
-     * flag before attempting to start a new request.
-     */
     private boolean mInProgress;
 
     public GeofenceRequester(Activity activityContext) {

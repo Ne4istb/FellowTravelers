@@ -339,6 +339,7 @@ public class MainActivity extends FragmentActivity {
 
         // Google Play services was not available for some reason
         } else {
+            Log.d(GeofenceUtils.APPTAG, getString(R.string.play_services_available));
 
             // Display an error dialog
             Dialog dialog = GooglePlayServicesUtil.getErrorDialog(resultCode, this, 0);

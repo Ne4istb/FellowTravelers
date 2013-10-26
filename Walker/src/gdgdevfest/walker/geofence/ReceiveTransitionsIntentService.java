@@ -25,9 +25,6 @@ import gdgdevfest.walker.R;
  */
 public class ReceiveTransitionsIntentService extends IntentService {
 
-    /**
-     * Sets an identifier for this class' background thread
-     */
     public ReceiveTransitionsIntentService() {
         super("ReceiveTransitionsIntentService");
     }

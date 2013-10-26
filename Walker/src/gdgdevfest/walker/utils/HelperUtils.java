@@ -14,11 +14,7 @@ import java.nio.charset.Charset;
 
 import org.apache.http.util.ByteArrayBuffer;
 
-import com.google.android.gms.common.data.c;
-
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.gesture.Prediction;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.preference.PreferenceManager;

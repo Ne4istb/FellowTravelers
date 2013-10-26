@@ -21,7 +21,7 @@ public class ActivityMain extends Activity {
 		fragment = new FragmentChoice();
 		getFragmentManager()
 				.beginTransaction()
-				.replace(R.id.main_frame_lt_content, fragment,
+				.replace(R.id.frame_lt_content, fragment,
 						FragmentChoice.class.getName()).commit();
 	}
 

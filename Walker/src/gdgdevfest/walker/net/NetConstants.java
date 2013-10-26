@@ -5,7 +5,7 @@ public class NetConstants {
 	/**
 	 * Server base url
 	 */
-	public static final String URL_BASE = " http://mrjson.com/data/526b76e785f7feb2e8e1da64/walker/";
+	public static final String URL_BASE = "http://172.27.40.14:8000/";
 
 	/**
 	 * Methods

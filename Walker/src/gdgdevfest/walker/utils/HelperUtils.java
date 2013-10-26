@@ -14,14 +14,21 @@ import java.nio.charset.Charset;
 
 import org.apache.http.util.ByteArrayBuffer;
 
+import com.google.android.gms.common.data.c;
+
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.gesture.Prediction;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 public class HelperUtils {
 
 	public static final boolean DEBUG = true;
+
+	public static final String KEY_HAS_ORDER = "has_order";
 
 	public static final String LOG_TAG = "Walker";
 
@@ -134,6 +141,18 @@ public class HelperUtils {
 		}
 
 		return image;
+	}
+
+	public void setHasOrder(Context context, boolean flag) {
+
+		PreferenceManager.getDefaultSharedPreferences(context).edit()
+				.putBoolean(KEY_HAS_ORDER, flag).commit();
+	}
+
+	public static boolean isHasOrder(Context context) {
+
+		return PreferenceManager.getDefaultSharedPreferences(context)
+				.getBoolean(KEY_HAS_ORDER, false);
 	}
 
 	public static String encode(String value) {

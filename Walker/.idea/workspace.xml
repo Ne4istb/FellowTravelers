@@ -68,7 +68,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityMan.java" line="16" class="gdgdevfest.walker.ui.ActivityMan" package="gdgdevfest.walker.ui">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -97,13 +97,8 @@
       <file leaf-file-name="ActivityAuto.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityAuto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="61" selection-start="2926" selection-end="2926" vertical-scroll-proportion="3.8556702" vertical-offset="0" max-vertical-offset="4403">
-              <folding>
-                <element signature="e#6562#6595#0" expanded="true" />
-                <element signature="e#6841#6903#0" expanded="true" />
-                <element signature="e#8072#8121#0" expanded="true" />
-                <element signature="e#8164#8187#0" expanded="true" />
-              </folding>
+            <state line="93" column="61" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-1.5773196" vertical-offset="1581" max-vertical-offset="4403">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +106,7 @@
       <file leaf-file-name="Handler.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="1411">
+            <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -120,7 +115,7 @@
       <file leaf-file-name="GeofenceUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/geofence/GeofenceUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="49" selection-start="1070" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1972">
+            <state line="32" column="49" selection-start="1070" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2210">
               <folding />
             </state>
           </provider>
@@ -129,7 +124,7 @@
       <file leaf-file-name="ConnectionResult.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/libs/google-play-services.jar!/com/google/android/gms/common/ConnectionResult.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="731">
+            <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -138,7 +133,7 @@
       <file leaf-file-name="ActivityMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="612">
+            <state line="25" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -147,7 +142,7 @@
       <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="775" max-vertical-offset="7429">
+            <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="7446">
               <folding />
             </state>
           </provider>
@@ -156,7 +151,7 @@
       <file leaf-file-name="ActivityMan.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="10" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -165,7 +160,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="612">
+            <state line="13" column="34" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -774,6 +769,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -883,7 +879,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1096,21 +1091,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4811784" sideWeight="0.33235726" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4811784" sideWeight="0.33235726" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4811784" sideWeight="0.6676428" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4811784" sideWeight="0.6676428" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1123,6 +1117,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1140,16 +1135,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="23" column="46" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.properties">
@@ -1161,23 +1152,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="74" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="36" column="74" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2890">
-          <folding />
-        </state>
+        <state line="14" column="67" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2890" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proguard-project.txt">
@@ -1210,7 +1195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="612">
+        <state line="13" column="34" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -1224,14 +1209,14 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/google-play-services.jar!/com/google/android/gms/common/ConnectionResult.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="731">
+        <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="612">
+        <state line="25" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -1245,13 +1230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gdgdevfest/walker/ui/ActivityAuto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="61" selection-start="2926" selection-end="2926" vertical-scroll-proportion="3.8556702" vertical-offset="0" max-vertical-offset="4403">
-          <folding>
-            <element signature="e#6562#6595#0" expanded="true" />
-            <element signature="e#6841#6903#0" expanded="true" />
-            <element signature="e#8072#8121#0" expanded="true" />
-            <element signature="e#8164#8187#0" expanded="true" />
-          </folding>
+        <state line="93" column="61" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-1.5773196" vertical-offset="1581" max-vertical-offset="4403">
+          <folding />
         </state>
       </provider>
     </entry>
